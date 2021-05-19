@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaEESpring:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaEESpring_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaEESpring" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.23" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="JavaEESpring/web/Web" />
+    </root>
+  </artifact>
+</component>
